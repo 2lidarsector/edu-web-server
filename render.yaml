@@ -2,4 +2,4 @@ services:
   - type: web
     name: edu
     env: docker
-    plan: free
+    plan: paid
