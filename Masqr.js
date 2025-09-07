@@ -26,7 +26,7 @@ export function setupMasqr(app) {
     }
 
     if (!authheader) {
-      res.setHeader("WWW-Authenticate", "Basic")
+      res.setHeader(", "Basic")
       res.status(401)
       MasqFail(req, res)
       return
